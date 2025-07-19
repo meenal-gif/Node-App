@@ -19,7 +19,6 @@ pipeline {
         stage('Deploy'){
             steps {
                 echo 'Deploying build to local web server...'
-				
 
                 sh '''
                 echo "Copying build to $DEPLOY_DIR"
